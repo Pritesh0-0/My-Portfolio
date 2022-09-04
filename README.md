@@ -1,9 +1,11 @@
+
+
 <h2 align="center">
   Portfolio Website live demo
   <a href="https://6314b71948c9b8781809c3f6--pritesh-patil-portfolio.netlify.app/" target="_blank">Pritesh Patil Portfolio</a>
 </h2>
 <div align="center">
-  <img width="960" alt="image" src="C:\Users\Pritesh\Desktop\react-portfolio-main\src\Assets\Portfolio.png">
+  <img width="960" alt="image" src="https://postimg.cc/7fbLLbzC">
 </div>
 
 ## Built With
