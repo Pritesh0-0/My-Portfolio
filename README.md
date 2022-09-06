@@ -2,7 +2,7 @@
 
 <h2 align="center">
   Portfolio Website live demo
-  <a href="https://6314b71948c9b8781809c3f6--pritesh-patil-portfolio.netlify.app/" target="_blank">Pritesh Patil Portfolio</a>
+  <a href="https://pritesh-patil-portfolio.netlify.app" target="_blank">Pritesh Patil Portfolio</a>
 </h2>
 <div align="center">
   <img width="960" alt="image" src="https://i.postimg.cc/8Pmft6Pb/Portfolio.png">
@@ -10,7 +10,7 @@
 
 ## Built With
 
-My personal portfolio   <a href="https://6314b71948c9b8781809c3f6--pritesh-patil-portfolio.netlify.app/" target="_blank">https://6314b71948c9b8781809c3f6--pritesh-patil-portfolio.netlify.app/</a><br/>
+My personal portfolio   <a href="https://pritesh-patil-portfolio.netlify.app" target="_blank">https://pritesh-patil-portfolio.netlify.app</a><br/>
 
 This project was built using these technologies.
 
