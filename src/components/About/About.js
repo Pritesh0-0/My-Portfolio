@@ -1,8 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+// import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import developer from "../../Assets/developer.gif";
-import { SKILLS, TOOLS } from "../../Constants";
+// import { SKILLS, TOOLS } from "../../Constants";
 
 function About() {
   return (
@@ -26,7 +27,7 @@ function About() {
             <img src={developer} alt="about" className="image-style" />
           </Col>
         </Row>
-        <Row className="skill-tools-wrapper">
+        {/* <Row className="skill-tools-wrapper">
           <Col className="skill-wrapper">
             <h1 className="project-heading">
               Professional <strong className="purple">Skillset </strong>
@@ -49,7 +50,7 @@ function About() {
               </ul>
             ))}
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </Container>
   );
