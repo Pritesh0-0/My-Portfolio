@@ -9,7 +9,7 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 
-import { MdDeveloperMode } from "react-icons/md";
+import gitHub from "../Assets/Github.png";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -36,7 +36,14 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="https://github.com/Pritesh0-0" target="_blank">
-          <MdDeveloperMode style={{ marginBottom: "2px" }} />
+          <img
+            src={gitHub}
+            width="30"
+            height="30"
+            className="d-inline-block align-top"
+            alt="Git"
+          />
+          {/* <MdDeveloperMode style={{ marginBottom: "2px" }} /> */}
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -63,6 +70,16 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/skills"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> Skills
               </Nav.Link>
             </Nav.Item>
 
